@@ -30,22 +30,18 @@ The Cloverpop application is built on:
 13. Go into the directory `$ cd wyzyr`. Confirm that when you run `$ rvm gemset list` it lists "wyzyr" as your gemset.
 14. Run `$ gem install bundler`
 15. Run `$ gem update --system`
-16. Run `$ brew install imagemagick`
-17. Run bundler: `$ bundle`
-18. Install redis using homebrew: `$ brew install redis`
-19. Install Yarn `$ brew install yarn`
-20. Install Node `$ brew install node`
-21. Install Webpack dependencies `yarn install`. If you run into problems doing the [yarn issues](#yarn-issues) section below.
-22. Create a new database: `$ rails db:create`
-23. Install the new Heroku CLI: `$ brew tap heroku/brew && brew install heroku`.
-24. Log into your Heroku account: `$ heroku login`
-25. Download a copy of a [recent database dump](https://drive.google.com/drive/u/1/folders/1AD4GvxG6WJPEOwfjFvrdsHE_SmMTAJA7) and then install it locally: `$ rake db:import`
-26. Should be ready to roll: `$ rails s`
-27. Open a new tab in terminal and start redis: `$ redis-server`. Note that you don't need to do this if you have Redis running in the background through MacOS.
-28. Open a new tab in terminal and start sidekiq: `$ sidekiq -C config/sidekiq.yml`.
-29. Open a new tab in terminal and start shakapacker: `$ bin/shakapacker-dev-server`.
-30. In Rubymine go to `Rubymine` -> `Settings` -> `Languages & Frameworks` -> `Ruby SDK and Gems`: Make sure it has "RVM: ruby-3.2.4" with the `wyzyr` option selected.
-31. Now switch to `Javascript`: Make sure that `Javascript language version` and make sure it is set to `ECMAScript 6+`.
+16. Run bundler: `$ bundle`
+17. Install redis using homebrew: `$ brew install redis`
+18. Install Yarn `$ brew install yarn`
+19. Install Node `$ brew install node`
+20. Install Webpack dependencies `yarn install`. If you run into problems doing the [yarn issues](#yarn-issues) section below.
+21. Create a new database: `$ rails db:create`
+22. Install the new Heroku CLI: `$ brew tap heroku/brew && brew install heroku`.
+23. Log into your Heroku account: `$ heroku login`
+24. Download a copy of a [recent database dump](https://drive.google.com/drive/u/1/folders/1AD4GvxG6WJPEOwfjFvrdsHE_SmMTAJA7) and then install it locally: `$ rake db:import`
+25. Should be ready to roll: `$ rails s`
+26. In Rubymine go to `Rubymine` -> `Settings` -> `Languages & Frameworks` -> `Ruby SDK and Gems`: Make sure it has "RVM: ruby-3.2.4" with the `wyzyr` option selected.
+27. Now switch to `Javascript`: Make sure that `Javascript language version` and make sure it is set to `ECMAScript 6+`.
 
 ### Highly Recommended Mac Goodies
 1. For pretty and customizable command line info, including branch and whether you have uncommited changes or not: 
